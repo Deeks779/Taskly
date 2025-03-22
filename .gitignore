@@ -1,0 +1,60 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ignore Gradle files
+.gradle/
+build/
+*/build/
+.externalNativeBuild/
+.cxx/
+
+# Ignore Android Studio specific files
+.idea/
+*.iml
+*.log
+
+# Ignore local configuration files
+local.properties
+/local.properties
+
+# Ignore .idea settings (IDE-specific)
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore capture and debug files
+captures/
+output.json
+
+# Ignore Keystore and API Keys (Security)
+*.keystore
+*.jks
+
+# Ignore unnecessary generated files
+*.apk
+*.aab
+*.log
+crashlytics/
+fabric/
