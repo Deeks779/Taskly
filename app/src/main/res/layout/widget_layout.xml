@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/widget_background">
+
+    <!-- Button to Add a New Task -->
+
+    <Button
+        android:id="@+id/widgetAddTaskButton"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/widget_button_background"
+        android:text="Add Task"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/widgetTaskList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c3b2e" />
+
+    <!-- StackView for displaying tasks -->
+<!--    <StackView-->
+<!--        android:id="@+id/widgetTaskStack"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+</LinearLayout>
