@@ -17,6 +17,23 @@
 </ul>
 
 <h2>📷 Demo</h2>
+<p>
+<img src="demo/1742706325191.gif" width="400">
+<ul>
+  <li>Video of adding a task.</li>
+  <li>Task automatically being updated in the widget.</li>
+</ul>
+<img src="demo/1742706325195.gif" width="400">
+<ul>
+  <li>Video of marking a task completed</li>
+  <li>Task automatically being marked as completed in the widget.</li>
+</ul>
+<img src="demo/1742706325200.gif" width="400">
+<ul>
+  <li>Video of deleting a task completed by pressing on it for a few seconds.</li>
+  <li>Task automatically being deleted from the widget.</li>
+</ul>
+</p>
 
 <h2>🔧 Tech Stack</h2>
 <ul>
